@@ -17,9 +17,16 @@
         android:src="@drawable/beauty"
         android:scaleType="centerCrop"/>
 
-    <com.orient.tea.barragephoto.ui.BarrageView
+    <com.kathline.danmaku.ui.BarrageView
         android:id="@+id/barrage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <com.kathline.danmaku.ui.SingleTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorAccent"
+        android:text="在Android开发中，Canvas.drawText不会换行，即使一个很长的字符串也只会显示一行，超出部分会隐藏在屏幕之外.StaticLayout是android中处理文字的一个工具类，StaticLayout 处理了文字换行的问题"
+        />
 
 </RelativeLayout>

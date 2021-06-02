@@ -15,11 +15,13 @@
         android:scaleType="centerCrop"
         />
 
-    <TextView
+    <com.kathline.danmaku.ui.SingleTextView
         android:id="@+id/content"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:text="sssss"
+        android:text="sssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+        android:singleLine="true"
+        android:ellipsize="none"
         android:textColor="#ffffff"
         android:textSize="14sp"
         android:gravity="center_vertical"

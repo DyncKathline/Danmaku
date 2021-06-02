@@ -1,1 +1,1 @@
-include ':app', ':Muti-Barrage'
+include ':app', ':danmaku'

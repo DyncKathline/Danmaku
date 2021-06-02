@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:background="@drawable/shape_main_item"
-    tools:context=".MainActivity">
+    tools:context="com.kathline.danmaku.simple.MainActivity">
 
     <TextView
         android:id="@+id/txt_content"

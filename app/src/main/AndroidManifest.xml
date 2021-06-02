@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.borient.tea.arragephotoview">
+    package="com.kathline.danmaku.simple.arragephotoview">
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.MutiBarrageActivity"
+        <activity android:name="com.kathline.danmaku.simple.ui.MutiBarrageActivity"
             android:screenOrientation="landscape"
             android:theme="@style/ActivityTheme"/>
         <activity
-            android:name=".ui.SingleBarrageActivity"
+            android:name="com.kathline.danmaku.simple.ui.SingleBarrageActivity"
             android:theme="@style/ActivityTheme"
             />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.kathline.danmaku.simple.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
