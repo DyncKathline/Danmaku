@@ -11,12 +11,6 @@
 - [x] 支持全屏和上中下显示
 - [x] 支持设置播放次数和循环播放
 
-## 一、效果
-
-写这个库的初衷就是觉得QQ空间中有弹幕的图片预览看上去很好玩，所以就打算实现一个，很早之前我就写了一个图片预览库，但我并不打算直接在原有的库中直接写弹幕代码，而是直接新建一个库，方便学习。不过现在我的图片预览库已经通过依赖`Muti-Barrage`集成弹幕功能了：[PhotoPagerView](<https://github.com/mCyp/PhotoPagerView>)
-
-![QQ主题](<https://github.com/mCyp/PhotoPagerView/blob/master/pic/%E5%9B%BE%E7%89%87%E5%BA%93QQ%E4%B8%BB%E9%A2%98.gif>)
-
 #### 1.  单视图
 
 ![单视图弹幕](<https://github.com/mCyp/Muti-Barrage/blob/master/pic/%E5%8D%95%E8%A7%86%E5%9B%BE%E5%BC%B9%E5%B9%95.gif>)
@@ -49,7 +43,7 @@
     ...
    
     /*需要添加的依赖 这里可以查看一下上面的最新版本*/
-    implementation 'com.jieWang:Muti-Barrage:xxx'
+    implementation 'com.github.kathline:Danmaku:xxx'
  }
 ```
 
@@ -60,7 +54,7 @@
 **第一步：添加进布局文件**
 
 ```xml
-<com.orient.tea.barragephoto.ui.BarrageView
+<com.kathline.danmaku.ui.BarrageView
         android:id="@+id/barrage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -490,8 +490,8 @@ public class BarrageView extends ViewGroup implements IBarrageView {
     static class Config {
         int gravity = -1;
         long interval;
-        int speed;
-        int waveSpeed;
+        int speed = 200;
+        int waveSpeed = 20;
         int model;
         boolean isInterceptTouchEvent = true;
         int repeat = 1;
